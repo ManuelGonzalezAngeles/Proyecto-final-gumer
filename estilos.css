@@ -1,0 +1,151 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    color: #0a3d62;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+/* Menú de navegación */
+nav {
+    background: #0a3d62;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 25px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #38ada9;
+}
+
+/* Secciones y formularios */
+section, form, .media-section, .sobre-nosotros {
+    max-width: 700px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+    padding: 30px;
+}
+
+/* Centrado especial para Sobre Nosotros */
+.sobre-nosotros {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Listas y tablas */
+ul, ol {
+    margin: 20px auto;
+    max-width: 600px;
+    font-size: 1.1em;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+    background: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+th, td {
+    border: 1px solid #b2bec3;
+    padding: 12px 18px;
+    text-align: center;
+}
+
+th {
+    background: #0a3d62;
+    color: #fff;
+}
+
+/* Formularios */
+form input, form textarea, form button {
+    padding: 10px;
+    margin: 8px 5px;
+    border-radius: 6px;
+    border: 1px solid #b2bec3;
+    font-size: 1em;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form button {
+    background: #0a3d62;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 95%;
+}
+
+form button:hover {
+    background: #38ada9;
+}
+
+/* Lista de clientes */
+ul#listaClientes {
+    list-style: none;
+    padding: 0;
+}
+
+ul#listaClientes li {
+    background: #f1f2f6;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border-left: 4px solid #0a3d62;
+    font-size: 1.05em;
+}
+
+/* Imagen de la tienda */
+.media-section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+}
+
+/* Video promocional */
+.media-section video {
+    display: block;
+    max-width: 100%;
+    margin: 25px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #0a3d62;
+    color: #fff;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
